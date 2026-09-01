@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="CSS3/style.css">
+</head>
+<body>
+                <header class="pain">
+                <div class="pain0">
+         <img src="IMAGE/Drop.png" alt=""><h1> Flow</h1>
+        </div>
+        <nav class="pain1">
+            <a href="" class="active">Acceuil</a>
+            <a href="Suivi.html">Suivi</a>
+            <a href="Menstrual cycle.html">Calendrier</a>
+             <a href="formulaire.html">formulaire</a>
+            <a href="Suivi.html">Conseils</a>
+        </nav>
+
+    </header>
+
+            <h1>ENTREZ VOS DONNEES</h1>
+        <div class="cycle-container">
+        <form class="cycle-form">
+            <div>
+                <label>Date du premier jour des dernières règles
+                    <input class="derniere-periode" type="date" required>
+                </label>
+            </div>
+            <div>
+                <label>Durée moyenne du cycle (jours)
+                    <input class="duree" type="number" min="21" max="40" value="28" required>
+                </label>
+            </div>
+            <div>
+                <label>Durée des règles (jours)
+                    <input class="dernier-jour" type="number" min="2" max="10" value="5" required>
+                </label>
+            </div>
+            <button type="submit">Afficher le calendrier</button>
+        </form>
+        <div class="Info">
+            <span class="periode">Règles</span>
+            <span class="fertilité">Fertile</span>
+            <span class="ovulation">Ovulation</span>
+        </div>
+    </div>
+    <script src="Durée.js"></script>
+    <script src="Regle.js"></script>
+</body>
+</html>
